@@ -53,7 +53,6 @@ pip install -r requirements.txt
 
 5.Ejecuta los scripts en orden desde la raíz del proyecto:
 
-python src/data/eda_figures.py
 python src/data/make_dataset.py
 python src/data/preprocess.py
 python src/models/train_models.py
