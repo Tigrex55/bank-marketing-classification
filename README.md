@@ -3,7 +3,7 @@
 Proyecto final de Ciencia de Datos sobre el conjunto **Bank Marketing** del repositorio UCI (45,211 registros, 16 variables predictoras y variable objetivo binaria `y`), con el objetivo de predecir antes de realizar una llamada si un cliente contratará un depósito a plazo fijo.
 
 ## Estructura del proyecto
-
+```text
 proyecto_bank_marketing/
 ├── data/
 │   ├── processed/                 # Datos limpios y particiones train / val / test
