@@ -4,7 +4,6 @@ Proyecto final de Ciencia de Datos sobre el conjunto **Bank Marketing** del repo
 
 ## Estructura del proyecto
 
-```text
 proyecto_bank_marketing/
 ├── data/
 │   ├── processed/                 # Datos limpios y particiones train / val / test
@@ -22,11 +21,11 @@ proyecto_bank_marketing/
 │   ├── mlp_busqueda.csv
 │   ├── mlp_mejor_config.json
 │   ├── mlp_variabilidad_semillas.csv
+│   ├── Reporte.pdf                # Reporte final en PDF formato IEEE
 │   ├── reporte_ieee.tex           # Articulo en formato IEEE a dos columnas
 │   └── tabla_comparativa_test.csv
 ├── src/
 │   ├── data/
-│   │   ├── eda_figures.py         # Generacion de graficas del EDA
 │   │   ├── make_dataset.py        # Carga, validacion y limpieza inicial
 │   │   └── preprocess.py          # Split estratificado, One-Hot y StandardScaler
 │   ├── evaluation/
@@ -38,21 +37,19 @@ proyecto_bank_marketing/
 ├── config.py                      # Rutas, constantes y semillas fijas
 └── requirements.txt
 
-1. Cómo ejecutarlo en Visual Studio Code
+1.Cómo ejecutarlo en Visual Studio Code
 Abre la carpeta del proyecto en Visual Studio Code.
 
-2. Crea y activa el entorno virtual desde la terminal integrada (Ctrl + ñ o Terminal > New Terminal):
+2.Crea y activa el entorno virtual desde la terminal integrada (Ctrl + ñ o Terminal > New Terminal):
 
 python -m venv bank_env
 .\bank_env\Scripts\Activate.ps1
+Selecciona el intérprete del entorno (Ctrl + Shift + P > Python: Select Interpreter > .\bank_env\Scripts\python.exe).
 
-3. Selecciona el intérprete del entorno (Ctrl + Shift + P > Python: Select Interpreter > .\bank_env\Scripts\python.exe).
-
-4. Instala las dependencias:
+3.Instala las dependencias:
 pip install -r requirements.txt
 
-5.Ejecuta los scripts en orden desde la raíz del proyecto:
-
+4.Ejecuta los scripts en orden desde la raíz del proyecto:
 python src/data/make_dataset.py
 python src/data/preprocess.py
 python src/models/train_models.py
