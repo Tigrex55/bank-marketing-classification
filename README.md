@@ -10,6 +10,7 @@ Abre la carpeta del proyecto en Visual Studio Code.
 
 python -m venv bank_env
 .\bank_env\Scripts\Activate.ps1
+
 Selecciona el intérprete del entorno (Ctrl + Shift + P > Python: Select Interpreter > .\bank_env\Scripts\python.exe).
 
 3.Instala las dependencias:
