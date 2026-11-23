@@ -38,19 +38,20 @@ proyecto_bank_marketing/
 ├── config.py                      # Rutas, constantes y semillas fijas
 └── requirements.txt
 
-Cómo ejecutarlo en Visual Studio Code
+1. Cómo ejecutarlo en Visual Studio Code
 Abre la carpeta del proyecto en Visual Studio Code.
 
-Crea y activa el entorno virtual desde la terminal integrada (Ctrl + ñ o Terminal > New Terminal):
+2. Crea y activa el entorno virtual desde la terminal integrada (Ctrl + ñ o Terminal > New Terminal):
 
 python -m venv bank_env
 .\bank_env\Scripts\Activate.ps1
-Selecciona el intérprete del entorno (Ctrl + Shift + P > Python: Select Interpreter > .\bank_env\Scripts\python.exe).
 
-Instala las dependencias:
+3. Selecciona el intérprete del entorno (Ctrl + Shift + P > Python: Select Interpreter > .\bank_env\Scripts\python.exe).
 
+4. Instala las dependencias:
 pip install -r requirements.txt
-Ejecuta los scripts en orden desde la raíz del proyecto:
+
+5.Ejecuta los scripts en orden desde la raíz del proyecto:
 
 python src/data/eda_figures.py
 python src/data/make_dataset.py
