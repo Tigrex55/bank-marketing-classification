@@ -2,6 +2,7 @@
 
 Proyecto final de Ciencia de Datos sobre el conjunto **Bank Marketing** del repositorio UCI (45,211 registros, 16 variables predictoras y variable objetivo binaria `y`), con el objetivo de predecir antes de realizar una llamada si un cliente contratará un depósito a plazo fijo.
 
+```text 
 1.Cómo ejecutarlo en Visual Studio Code
 
 Abre la carpeta del proyecto en Visual Studio Code.
