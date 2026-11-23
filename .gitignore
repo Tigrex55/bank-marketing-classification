@@ -1,0 +1,7 @@
+﻿# Entorno virtual y cache de Python
+bank_env/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/

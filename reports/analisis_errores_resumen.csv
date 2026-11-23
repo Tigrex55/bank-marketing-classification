@@ -1,0 +1,7 @@
+,age,age,age,balance,balance,balance,campaign,campaign,campaign,previous,previous,previous,contacted_before,contacted_before,contacted_before
+,count,mean,median,count,mean,median,count,mean,median,count,mean,median,count,mean,median
+tipo_resultado,,,,,,,,,,,,,,,
+FN (Falso Negativo),415,40.86,39.0,415,1316.79,471.0,415,2.65,2.0,415,0.38,0.0,415,0.16,0.0
+FP (Falso Positivo),1135,41.89,37.0,1135,2808.22,1215.0,1135,2.04,2.0,1135,1.09,0.0,1135,0.34,0.0
+TN (Acierto No),6850,40.86,40.0,6850,1052.92,342.0,6850,2.99,2.0,6850,0.4,0.0,6850,0.13,0.0
+TP (Acierto Si),643,42.56,37.0,643,1953.66,893.0,643,1.75,1.0,643,1.68,1.0,643,0.52,1.0

@@ -1,0 +1,81 @@
+{
+    "Regresion_Logistica": {
+        "espacio": {
+            "C": [
+                0.01,
+                0.1,
+                1.0,
+                10.0
+            ],
+            "class_weight": [
+                null,
+                "balanced"
+            ]
+        },
+        "mejores_params": {
+            "C": 1.0,
+            "class_weight": "balanced"
+        },
+        "mejor_f1_cv": 0.374
+    },
+    "Naive_Bayes_Gaussian": {
+        "espacio": {
+            "var_smoothing": [
+                1e-09,
+                1e-07,
+                1e-05,
+                0.001,
+                0.01,
+                0.1
+            ]
+        },
+        "mejores_params": {
+            "var_smoothing": 0.01
+        },
+        "mejor_f1_cv": 0.3839,
+        "comparacion_bernoulli_f1_cv": 0.3439
+    },
+    "SVM_Lineal": {
+        "espacio": {
+            "C": [
+                0.01,
+                0.1,
+                1.0,
+                10.0
+            ],
+            "class_weight": [
+                null,
+                "balanced"
+            ]
+        },
+        "mejores_params": {
+            "C": 10.0,
+            "class_weight": "balanced"
+        },
+        "mejor_f1_cv": 0.3738
+    },
+    "SVM_RBF": {
+        "espacio": {
+            "C": [
+                0.1,
+                1.0,
+                10.0
+            ],
+            "gamma": [
+                "scale",
+                0.01,
+                0.1
+            ],
+            "class_weight": [
+                "balanced"
+            ]
+        },
+        "submuestra_tuning": 8000,
+        "mejores_params": {
+            "C": 10.0,
+            "class_weight": "balanced",
+            "gamma": 0.01
+        },
+        "mejor_f1_cv_submuestra": 0.4231
+    }
+}
